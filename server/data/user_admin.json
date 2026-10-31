@@ -1,0 +1,73 @@
+{
+  "username": "admin",
+  "progress": {
+    "completedModules": [
+      "BEC / Vendor Impersonation"
+    ],
+    "currentModule": "scorm-auth",
+    "scenarioPoints": 100,
+    "scenariosCompleted": [
+      "OAuth App Consent Phishing::0",
+      "OAuth App Consent Phishing::1",
+      "OAuth App Consent Phishing::2",
+      "OAuth App Consent Phishing::3",
+      "OAuth App Consent Phishing::4",
+      "BEC / Vendor Impersonation::0",
+      "BEC / Vendor Impersonation::1",
+      "BEC / Vendor Impersonation::2",
+      "BEC / Vendor Impersonation::3",
+      "BEC / Vendor Impersonation::4",
+      "BEC / Vendor Impersonation::5",
+      "BEC / Vendor Impersonation::6",
+      "BEC / Vendor Impersonation::7",
+      "BEC / Vendor Impersonation::8",
+      "BEC / Vendor Impersonation::9"
+    ],
+    "answersMap": {
+      "OAuth App Consent Phishing::0": "a",
+      "OAuth App Consent Phishing::1": "d",
+      "OAuth App Consent Phishing::2": "c",
+      "OAuth App Consent Phishing::3": "c",
+      "OAuth App Consent Phishing::4": "b",
+      "BEC / Vendor Impersonation::0": "c",
+      "BEC / Vendor Impersonation::1": "c",
+      "BEC / Vendor Impersonation::2": "a",
+      "BEC / Vendor Impersonation::3": "c",
+      "BEC / Vendor Impersonation::4": "b",
+      "BEC / Vendor Impersonation::5": "d",
+      "BEC / Vendor Impersonation::6": "c",
+      "BEC / Vendor Impersonation::7": "b",
+      "BEC / Vendor Impersonation::8": "b",
+      "BEC / Vendor Impersonation::9": "a"
+    }
+  },
+  "conversations": [
+    {
+      "role": "assistant",
+      "content": "Chat cleared. How can I help you, Anas?"
+    }
+  ],
+  "persona": {
+    "preferredStyle": "professional",
+    "interactionCount": 11
+  },
+  "scormState": {
+    "cmi.core.lesson_status": "incomplete",
+    "cmi.core.lesson_location": "",
+    "cmi.core.student_id": "",
+    "cmi.core.student_name": "Admin User",
+    "cmi.core.credit": "credit",
+    "cmi.core.lesson_mode": "normal",
+    "cmi.core.entry": "ab-initio",
+    "cmi.core.exit": "suspend",
+    "cmi.core.session_time": "00:00:00",
+    "cmi.core.total_time": "00:00:00",
+    "cmi.core.score.raw": "",
+    "cmi.core.score.min": "0",
+    "cmi.core.score.max": "100",
+    "cmi.suspend_data": "",
+    "cmi.launch_data": "",
+    "cmi.comments": "",
+    "cmi.interactions._count": "0"
+  }
+}

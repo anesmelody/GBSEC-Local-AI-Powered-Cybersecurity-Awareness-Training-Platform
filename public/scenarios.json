@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "vishing-/-fake-helpdesk-5",
+    "scenario_date": "2026-08-18",
+    "topic": "Connecting to Public Network",
+    "threat_type": "Vishing / Fake Helpdesk",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Airport Network",
+      "subject": "Connecting to Public Network",
+      "body_snippet": "Your home router still uses the default admin password.",
+      "context": "Setting up your home office network."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave your laptop unlocked while you grab a coffee.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Always use the corporate VPN on public networks and position your screen privately.",
+        "is_correct": true,
+        "explanation": "VPNs encrypt your traffic, protecting it from interception on public networks."
+      },
+      {
+        "id": "C",
+        "text": "Connect directly to public Wi-Fi without a VPN.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Work on sensitive documents where others can easily see your screen.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "credential-harvesting-1",
+    "scenario_date": "2026-09-10",
+    "topic": "Password Expiry",
+    "threat_type": "Credential Harvesting",
+    "difficulty": "Medium",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "support@it-desk-help.com",
+      "subject": "Password Expiry",
+      "body_snippet": "Click the link below to verify your account immediately.",
+      "context": "A message on LinkedIn from someone claiming to be IT."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignore and delete without reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Report via the official phishing button.",
+        "is_correct": true,
+        "explanation": "Official channels should always be used to report suspicious messages."
+      },
+      {
+        "id": "C",
+        "text": "Reply to ask who it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Click to check the URL.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "bec-/-vendor-impersonation-6",
+    "scenario_date": "2026-09-03",
+    "topic": "Updated Banking Details",
+    "threat_type": "BEC / Vendor Impersonation",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "finance@supplier-portal.co",
+      "subject": "Updated Banking Details",
+      "body_snippet": "We have a critical payment pending. Process it today to avoid delays.",
+      "context": "Marked as 'Urgent' and 'Confidential'."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Verify the request via a known, trusted phone number.",
+        "is_correct": true,
+        "explanation": "Always verify unexpected financial changes verbally with a known contact."
+      },
+      {
+        "id": "B",
+        "text": "Process the payment immediately as requested.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Reply to the email to confirm the new details.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Forward to a colleague and ask them to do it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "cloud-misconfiguration-5",
+    "scenario_date": "2026-08-31",
+    "topic": "Sharing PII",
+    "threat_type": "Cloud Misconfiguration",
+    "difficulty": "Medium",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "External Partner",
+      "subject": "Sharing PII",
+      "body_snippet": "You need to send sensitive health data to a vendor.",
+      "context": "Collaborating with a third-party vendor."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Use an approved, encrypted transfer method and shred physical documents.",
+        "is_correct": true,
+        "explanation": "Unencrypted emails and regular trash bins expose sensitive data to unauthorized access."
+      },
+      {
+        "id": "B",
+        "text": "Email the unencrypted file directly to the partner.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Store the PII on your personal Google Drive.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Throw the printed reports in the regular recycling bin.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "malicious-attachment-1",
+    "scenario_date": "2026-09-02",
+    "topic": "System Alert",
+    "threat_type": "Malicious Attachment",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Automated System",
+      "subject": "System Alert",
+      "body_snippet": "Your PC is infected! Download this tool to clean it.",
+      "context": "A pop-up appears on a website you are browsing."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Run your own antivirus scan and continue working.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Open the file to see what it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Enable macros just this once.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Disconnect from the network and contact IT immediately.",
+        "is_correct": true,
+        "explanation": "Never enable macros on unexpected documents."
+      }
+    ]
+  },
+  {
+    "id": "vishing-/-fake-helpdesk-0",
+    "scenario_date": "2026-08-29",
+    "topic": "Connecting to Public Network",
+    "threat_type": "Vishing / Fake Helpdesk",
+    "difficulty": "Hard",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Home Router",
+      "subject": "Connecting to Public Network",
+      "body_snippet": "Your home router still uses the default admin password.",
+      "context": "Setting up your home office network."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave your laptop unlocked while you grab a coffee.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Work on sensitive documents where others can easily see your screen.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Connect directly to public Wi-Fi without a VPN.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Always use the corporate VPN on public networks and position your screen privately.",
+        "is_correct": true,
+        "explanation": "VPNs encrypt your traffic, protecting it from interception on public networks."
+      }
+    ]
+  },
+  {
+    "id": "physical-security-9",
+    "scenario_date": "2026-08-28",
+    "topic": "Unescorted Visitor",
+    "threat_type": "Physical Security",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Delivery Person",
+      "subject": "Unescorted Visitor",
+      "body_snippet": "Someone carrying a large box asks you to hold the door open for them.",
+      "context": "Arriving at work in the morning."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Use the found badge to see whose it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Hold the door open for them to be polite.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Politely ask them to use their own badge or direct them to reception.",
+        "is_correct": true,
+        "explanation": "Tailgating is a common method for unauthorized physical access."
+      },
+      {
+        "id": "D",
+        "text": "Assume they are supposed to be there and ignore them.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "lookalike-domain-1",
+    "scenario_date": "2026-08-20",
+    "topic": "Lost Laptop",
+    "threat_type": "Lookalike Domain",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Hotel Staff",
+      "subject": "Lost Laptop",
+      "body_snippet": "You realize you left your company phone in a taxi.",
+      "context": "Traveling for business."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave the device unlocked on your desk.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Try to track and recover the device yourself.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Wait a few days to see if it turns up before reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Report the loss immediately so a remote wipe can be initiated.",
+        "is_correct": true,
+        "explanation": "Remote wipe capabilities can protect data on lost devices if reported promptly."
+      }
+    ]
+  },
+  {
+    "id": "physical-security-8",
+    "scenario_date": "2026-09-11",
+    "topic": "Lost Badge",
+    "threat_type": "Physical Security",
+    "difficulty": "Easy",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "Delivery Person",
+      "subject": "Lost Badge",
+      "body_snippet": "Someone carrying a large box asks you to hold the door open for them.",
+      "context": "Entering the secure office building."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Politely ask them to use their own badge or direct them to reception.",
+        "is_correct": true,
+        "explanation": "Tailgating is a common method for unauthorized physical access."
+      },
+      {
+        "id": "B",
+        "text": "Assume they are supposed to be there and ignore them.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Use the found badge to see whose it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Hold the door open for them to be polite.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "credential-harvesting-6",
+    "scenario_date": "2026-09-01",
+    "topic": "Urgent Benefit Update",
+    "threat_type": "Credential Harvesting",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "support@it-desk-help.com",
+      "subject": "Urgent Benefit Update",
+      "body_snippet": "Click the link below to verify your account immediately.",
+      "context": "Received in your work email inbox."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Reply to ask who it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Click to check the URL.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Ignore and delete without reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Report via the official phishing button.",
+        "is_correct": true,
+        "explanation": "Official channels should always be used to report suspicious messages."
+      }
+    ]
+  },
+  {
+    "id": "mfa-fatigue-8",
+    "scenario_date": "2026-09-09",
+    "topic": "Unusual Login Attempt",
+    "threat_type": "MFA Fatigue",
+    "difficulty": "Medium",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Security Team",
+      "subject": "Unusual Login Attempt",
+      "body_snippet": "Please reply with your current password to verify your account.",
+      "context": "You are prompted to log in to a familiar service, but the URL looks strange."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Provide your password since they are IT.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Never share your password and navigate to the service manually.",
+        "is_correct": true,
+        "explanation": "Always check the URL and navigate directly to the service."
+      },
+      {
+        "id": "C",
+        "text": "Click the link and log in to be safe.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Share your credentials with your colleague temporarily.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "cloud-misconfiguration-9",
+    "scenario_date": "2026-08-18",
+    "topic": "Sharing PII",
+    "threat_type": "Cloud Misconfiguration",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Marketing Team",
+      "subject": "Sharing PII",
+      "body_snippet": "A partner requests a list of customer emails in an Excel file.",
+      "context": "Collaborating with a third-party vendor."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Use an approved, encrypted transfer method and shred physical documents.",
+        "is_correct": true,
+        "explanation": "Protecting PII and sensitive data requires secure transfer and disposal methods."
+      },
+      {
+        "id": "B",
+        "text": "Email the unencrypted file directly to the partner.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Store the PII on your personal Google Drive.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Throw the printed reports in the regular recycling bin.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "bec-/-vendor-impersonation-1",
+    "scenario_date": "2026-09-09",
+    "topic": "Updated Banking Details",
+    "threat_type": "BEC / Vendor Impersonation",
+    "difficulty": "Medium",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "vendor@trusted-partner-inc.com",
+      "subject": "Updated Banking Details",
+      "body_snippet": "Please update our banking details for all future invoices to the attached account.",
+      "context": "Email looks like it's from the CEO but the domain is slightly off."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Process the payment immediately as requested.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Verify the request via a known, trusted phone number.",
+        "is_correct": true,
+        "explanation": "Out-of-band verification is crucial for financial requests."
+      },
+      {
+        "id": "C",
+        "text": "Forward to a colleague and ask them to do it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Reply to the email to confirm the new details.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "malicious-attachment-8",
+    "scenario_date": "2026-09-02",
+    "topic": "System Alert",
+    "threat_type": "Malicious Attachment",
+    "difficulty": "Hard",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "Automated System",
+      "subject": "System Alert",
+      "body_snippet": "Your PC is infected! Download this tool to clean it.",
+      "context": "You receive an unsolicited email with a ZIP file."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Enable macros just this once.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Disconnect from the network and contact IT immediately.",
+        "is_correct": true,
+        "explanation": "Never enable macros on unexpected documents."
+      },
+      {
+        "id": "C",
+        "text": "Run your own antivirus scan and continue working.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Open the file to see what it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "cloud-misconfiguration-6",
+    "scenario_date": "2026-09-13",
+    "topic": "Improper Disposal",
+    "threat_type": "Cloud Misconfiguration",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "External Partner",
+      "subject": "Improper Disposal",
+      "body_snippet": "You need to send sensitive health data to a vendor.",
+      "context": "Cleaning out your desk at the office."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Store the PII on your personal Google Drive.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Throw the printed reports in the regular recycling bin.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Use an approved, encrypted transfer method and shred physical documents.",
+        "is_correct": true,
+        "explanation": "Protecting PII and sensitive data requires secure transfer and disposal methods."
+      },
+      {
+        "id": "D",
+        "text": "Email the unencrypted file directly to the partner.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "oauth-app-consent-phishing-1",
+    "scenario_date": "2026-09-11",
+    "topic": "Phishing Click",
+    "threat_type": "OAuth App Consent Phishing",
+    "difficulty": "Medium",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Compliance Officer",
+      "subject": "Phishing Click",
+      "body_snippet": "You accidentally clicked a link in a phishing email.",
+      "context": "Noticing strange activity on your account."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait until your next performance review to mention it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Hide the mistake and hope nothing happens.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Try to fix the issue yourself without telling anyone.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Report the incident immediately using official channels.",
+        "is_correct": true,
+        "explanation": "Early detection and reporting are critical for effective incident response."
+      }
+    ]
+  },
+  {
+    "id": "bec-/-vendor-impersonation-3",
+    "scenario_date": "2026-08-20",
+    "topic": "Urgent Payment Needed",
+    "threat_type": "BEC / Vendor Impersonation",
+    "difficulty": "Easy",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "ceo@company-exec.net",
+      "subject": "Urgent Payment Needed",
+      "body_snippet": "We have a critical payment pending. Process it today to avoid delays.",
+      "context": "Email looks like it's from the CEO but the domain is slightly off."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Reply to the email to confirm the new details.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Forward to a colleague and ask them to do it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Process the payment immediately as requested.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Verify the request via a known, trusted phone number.",
+        "is_correct": true,
+        "explanation": "Out-of-band verification is crucial for financial requests."
+      }
+    ]
+  },
+  {
+    "id": "cloud-misconfiguration-4",
+    "scenario_date": "2026-09-03",
+    "topic": "Improper Disposal",
+    "threat_type": "Cloud Misconfiguration",
+    "difficulty": "Hard",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "Cloud Storage Provider",
+      "subject": "Improper Disposal",
+      "body_snippet": "A partner requests a list of customer emails in an Excel file.",
+      "context": "Collaborating with a third-party vendor."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Email the unencrypted file directly to the partner.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Throw the printed reports in the regular recycling bin.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Store the PII on your personal Google Drive.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Use an approved, encrypted transfer method and shred physical documents.",
+        "is_correct": true,
+        "explanation": "Protecting PII and sensitive data requires secure transfer and disposal methods."
+      }
+    ]
+  },
+  {
+    "id": "credential-harvesting-9",
+    "scenario_date": "2026-09-02",
+    "topic": "Urgent Benefit Update",
+    "threat_type": "Credential Harvesting",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "admin@web-mail-admin.co",
+      "subject": "Urgent Benefit Update",
+      "body_snippet": "Review the attached document to claim your new benefits.",
+      "context": "A message on LinkedIn from someone claiming to be IT."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignore and delete without reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Report via the official phishing button.",
+        "is_correct": true,
+        "explanation": "Reporting helps the security team block the attack for everyone."
+      },
+      {
+        "id": "C",
+        "text": "Reply to ask who it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Click to check the URL.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "malicious-attachment-4",
+    "scenario_date": "2026-08-19",
+    "topic": "Unexpected Attachment",
+    "threat_type": "Malicious Attachment",
+    "difficulty": "Easy",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "Unknown User",
+      "subject": "Unexpected Attachment",
+      "body_snippet": "This document requires you to Enable Content to view.",
+      "context": "You receive an unsolicited email with a ZIP file."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Disconnect from the network and contact IT immediately.",
+        "is_correct": true,
+        "explanation": "Disconnecting prevents the malware from spreading across the network."
+      },
+      {
+        "id": "B",
+        "text": "Enable macros just this once.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Open the file to see what it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Run your own antivirus scan and continue working.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "mfa-fatigue-2",
+    "scenario_date": "2026-08-29",
+    "topic": "Verify Your Credentials",
+    "threat_type": "MFA Fatigue",
+    "difficulty": "Medium",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "System Administrator",
+      "subject": "Verify Your Credentials",
+      "body_snippet": "Please reply with your current password to verify your account.",
+      "context": "You receive a phone call from someone claiming to be IT asking for your password."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Click the link and log in to be safe.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Share your credentials with your colleague temporarily.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Provide your password since they are IT.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Never share your password and navigate to the service manually.",
+        "is_correct": true,
+        "explanation": "Legitimate IT staff will never ask for your password."
+      }
+    ]
+  },
+  {
+    "id": "lookalike-domain-8",
+    "scenario_date": "2026-09-08",
+    "topic": "Unattended Device",
+    "threat_type": "Lookalike Domain",
+    "difficulty": "Hard",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Hotel Staff",
+      "subject": "Unattended Device",
+      "body_snippet": "Your laptop is stolen from your hotel room.",
+      "context": "Commuting to the office."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Report the loss immediately so a remote wipe can be initiated.",
+        "is_correct": true,
+        "explanation": "Remote wipe capabilities can protect data on lost devices if reported promptly."
+      },
+      {
+        "id": "B",
+        "text": "Try to track and recover the device yourself.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Wait a few days to see if it turns up before reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Leave the device unlocked on your desk.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "cloud-misconfiguration-8",
+    "scenario_date": "2026-09-05",
+    "topic": "Improper Disposal",
+    "threat_type": "Cloud Misconfiguration",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Marketing Team",
+      "subject": "Improper Disposal",
+      "body_snippet": "You have printed confidential reports that you no longer need.",
+      "context": "Handling customer data for a marketing campaign."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Email the unencrypted file directly to the partner.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Store the PII on your personal Google Drive.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Throw the printed reports in the regular recycling bin.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Use an approved, encrypted transfer method and shred physical documents.",
+        "is_correct": true,
+        "explanation": "Unencrypted emails and regular trash bins expose sensitive data to unauthorized access."
+      }
+    ]
+  },
+  {
+    "id": "credential-harvesting-2",
+    "scenario_date": "2026-09-10",
+    "topic": "Password Expiry",
+    "threat_type": "Credential Harvesting",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "admin@web-mail-admin.co",
+      "subject": "Password Expiry",
+      "body_snippet": "Click the link below to verify your account immediately.",
+      "context": "A message on LinkedIn from someone claiming to be IT."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Click to check the URL.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Reply to ask who it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Report via the official phishing button.",
+        "is_correct": true,
+        "explanation": "Reporting helps the security team block the attack for everyone."
+      },
+      {
+        "id": "D",
+        "text": "Ignore and delete without reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "mfa-fatigue-6",
+    "scenario_date": "2026-09-10",
+    "topic": "Unusual Login Attempt",
+    "threat_type": "MFA Fatigue",
+    "difficulty": "Hard",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "System Administrator",
+      "subject": "Unusual Login Attempt",
+      "body_snippet": "Please reply with your current password to verify your account.",
+      "context": "You receive a phone call from someone claiming to be IT asking for your password."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Click the link and log in to be safe.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Never share your password and navigate to the service manually.",
+        "is_correct": true,
+        "explanation": "Always check the URL and navigate directly to the service."
+      },
+      {
+        "id": "C",
+        "text": "Provide your password since they are IT.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Share your credentials with your colleague temporarily.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "physical-security-2",
+    "scenario_date": "2026-08-22",
+    "topic": "Holding the Door",
+    "threat_type": "Physical Security",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Unknown Individual",
+      "subject": "Holding the Door",
+      "body_snippet": "You find a lost access badge in the parking lot.",
+      "context": "Walking through the office hallways."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Politely ask them to use their own badge or direct them to reception.",
+        "is_correct": true,
+        "explanation": "Tailgating is a common method for unauthorized physical access."
+      },
+      {
+        "id": "B",
+        "text": "Hold the door open for them to be polite.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Assume they are supposed to be there and ignore them.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Use the found badge to see whose it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "oauth-app-consent-phishing-7",
+    "scenario_date": "2026-09-07",
+    "topic": "Policy Violation",
+    "threat_type": "OAuth App Consent Phishing",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Security Operations",
+      "subject": "Policy Violation",
+      "body_snippet": "You accidentally clicked a link in a phishing email.",
+      "context": "Observing policy non-compliance in the workplace."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait until your next performance review to mention it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Hide the mistake and hope nothing happens.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Try to fix the issue yourself without telling anyone.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Report the incident immediately using official channels.",
+        "is_correct": true,
+        "explanation": "Early detection and reporting are critical for effective incident response."
+      }
+    ]
+  },
+  {
+    "id": "oauth-app-consent-phishing-3",
+    "scenario_date": "2026-09-07",
+    "topic": "Phishing Click",
+    "threat_type": "OAuth App Consent Phishing",
+    "difficulty": "Easy",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Compliance Officer",
+      "subject": "Phishing Click",
+      "body_snippet": "You suspect your account has been compromised.",
+      "context": "Realizing a mistake was made."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Try to fix the issue yourself without telling anyone.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Report the incident immediately using official channels.",
+        "is_correct": true,
+        "explanation": "Early detection and reporting are critical for effective incident response."
+      },
+      {
+        "id": "C",
+        "text": "Hide the mistake and hope nothing happens.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Wait until your next performance review to mention it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "lookalike-domain-6",
+    "scenario_date": "2026-08-27",
+    "topic": "Lost Laptop",
+    "threat_type": "Lookalike Domain",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Taxi Driver",
+      "subject": "Lost Laptop",
+      "body_snippet": "You realize you left your company phone in a taxi.",
+      "context": "Traveling for business."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait a few days to see if it turns up before reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Leave the device unlocked on your desk.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Try to track and recover the device yourself.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Report the loss immediately so a remote wipe can be initiated.",
+        "is_correct": true,
+        "explanation": "Remote wipe capabilities can protect data on lost devices if reported promptly."
+      }
+    ]
+  },
+  {
+    "id": "credential-harvesting-4",
+    "scenario_date": "2026-09-06",
+    "topic": "Password Expiry",
+    "threat_type": "Credential Harvesting",
+    "difficulty": "Medium",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "admin@web-mail-admin.co",
+      "subject": "Password Expiry",
+      "body_snippet": "Review the attached document to claim your new benefits.",
+      "context": "A message on LinkedIn from someone claiming to be IT."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Report via the official phishing button.",
+        "is_correct": true,
+        "explanation": "Reporting helps the security team block the attack for everyone."
+      },
+      {
+        "id": "B",
+        "text": "Ignore and delete without reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Reply to ask who it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Click to check the URL.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "cloud-misconfiguration-1",
+    "scenario_date": "2026-09-07",
+    "topic": "Sharing PII",
+    "threat_type": "Cloud Misconfiguration",
+    "difficulty": "Hard",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "External Partner",
+      "subject": "Sharing PII",
+      "body_snippet": "A partner requests a list of customer emails in an Excel file.",
+      "context": "Cleaning out your desk at the office."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Use an approved, encrypted transfer method and shred physical documents.",
+        "is_correct": true,
+        "explanation": "Protecting PII and sensitive data requires secure transfer and disposal methods."
+      },
+      {
+        "id": "B",
+        "text": "Store the PII on your personal Google Drive.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Email the unencrypted file directly to the partner.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Throw the printed reports in the regular recycling bin.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "mfa-fatigue-3",
+    "scenario_date": "2026-09-03",
+    "topic": "Verify Your Credentials",
+    "threat_type": "MFA Fatigue",
+    "difficulty": "Hard",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "System Administrator",
+      "subject": "Verify Your Credentials",
+      "body_snippet": "Please reply with your current password to verify your account.",
+      "context": "You receive a phone call from someone claiming to be IT asking for your password."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Provide your password since they are IT.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Share your credentials with your colleague temporarily.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Click the link and log in to be safe.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Never share your password and navigate to the service manually.",
+        "is_correct": true,
+        "explanation": "Legitimate IT staff will never ask for your password."
+      }
+    ]
+  },
+  {
+    "id": "malicious-attachment-7",
+    "scenario_date": "2026-09-02",
+    "topic": "Unexpected Attachment",
+    "threat_type": "Malicious Attachment",
+    "difficulty": "Hard",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Automated System",
+      "subject": "Unexpected Attachment",
+      "body_snippet": "Your PC is infected! Download this tool to clean it.",
+      "context": "You receive an unsolicited email with a ZIP file."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Open the file to see what it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Enable macros just this once.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Run your own antivirus scan and continue working.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Disconnect from the network and contact IT immediately.",
+        "is_correct": true,
+        "explanation": "Disconnecting prevents the malware from spreading across the network."
+      }
+    ]
+  },
+  {
+    "id": "physical-security-5",
+    "scenario_date": "2026-09-09",
+    "topic": "Lost Badge",
+    "threat_type": "Physical Security",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Unknown Individual",
+      "subject": "Lost Badge",
+      "body_snippet": "Someone carrying a large box asks you to hold the door open for them.",
+      "context": "Entering the secure office building."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Assume they are supposed to be there and ignore them.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Hold the door open for them to be polite.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Use the found badge to see whose it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Politely ask them to use their own badge or direct them to reception.",
+        "is_correct": true,
+        "explanation": "Tailgating is a common method for unauthorized physical access."
+      }
+    ]
+  },
+  {
+    "id": "bec-/-vendor-impersonation-5",
+    "scenario_date": "2026-08-21",
+    "topic": "Urgent Payment Needed",
+    "threat_type": "BEC / Vendor Impersonation",
+    "difficulty": "Medium",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "vendor@trusted-partner-inc.com",
+      "subject": "Urgent Payment Needed",
+      "body_snippet": "I need you to process a wire transfer to our new vendor immediately.",
+      "context": "Email looks like it's from the CEO but the domain is slightly off."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Verify the request via a known, trusted phone number.",
+        "is_correct": true,
+        "explanation": "Out-of-band verification is crucial for financial requests."
+      },
+      {
+        "id": "B",
+        "text": "Reply to the email to confirm the new details.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Forward to a colleague and ask them to do it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Process the payment immediately as requested.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "oauth-app-consent-phishing-2",
+    "scenario_date": "2026-08-17",
+    "topic": "Phishing Click",
+    "threat_type": "OAuth App Consent Phishing",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Security Operations",
+      "subject": "Phishing Click",
+      "body_snippet": "You accidentally clicked a link in a phishing email.",
+      "context": "Realizing a mistake was made."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Hide the mistake and hope nothing happens.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Report the incident immediately using official channels.",
+        "is_correct": true,
+        "explanation": "Hiding incidents often leads to much greater damage and consequences."
+      },
+      {
+        "id": "C",
+        "text": "Try to fix the issue yourself without telling anyone.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Wait until your next performance review to mention it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "insider-threat-5",
+    "scenario_date": "2026-09-04",
+    "topic": "Sharing Access",
+    "threat_type": "Insider Threat",
+    "difficulty": "Easy",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Disgruntled Employee",
+      "subject": "Sharing Access",
+      "body_snippet": "An employee who is leaving next week asks you to email them some client lists.",
+      "context": "Casual conversation in the breakroom."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Report the suspicious behavior to HR or Security.",
+        "is_correct": true,
+        "explanation": "Even colleagues can pose a security risk if policies are not followed."
+      },
+      {
+        "id": "B",
+        "text": "Ignore it, it's probably fine.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Confront the colleague directly and aggressively.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Grant them access since they asked nicely.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "malicious-attachment-9",
+    "scenario_date": "2026-09-13",
+    "topic": "Unexpected Attachment",
+    "threat_type": "Malicious Attachment",
+    "difficulty": "Medium",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Unknown User",
+      "subject": "Unexpected Attachment",
+      "body_snippet": "Your PC is infected! Download this tool to clean it.",
+      "context": "A pop-up appears on a website you are browsing."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Open the file to see what it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Disconnect from the network and contact IT immediately.",
+        "is_correct": true,
+        "explanation": "Never enable macros on unexpected documents."
+      },
+      {
+        "id": "C",
+        "text": "Run your own antivirus scan and continue working.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Enable macros just this once.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "lookalike-domain-0",
+    "scenario_date": "2026-08-23",
+    "topic": "Stolen Phone",
+    "threat_type": "Lookalike Domain",
+    "difficulty": "Easy",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Conference Organizer",
+      "subject": "Stolen Phone",
+      "body_snippet": "You realize you left your company phone in a taxi.",
+      "context": "Commuting to the office."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait a few days to see if it turns up before reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Leave the device unlocked on your desk.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Try to track and recover the device yourself.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Report the loss immediately so a remote wipe can be initiated.",
+        "is_correct": true,
+        "explanation": "Immediate reporting minimizes the window for data compromise."
+      }
+    ]
+  },
+  {
+    "id": "physical-security-7",
+    "scenario_date": "2026-08-30",
+    "topic": "Unescorted Visitor",
+    "threat_type": "Physical Security",
+    "difficulty": "Medium",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Former Employee",
+      "subject": "Unescorted Visitor",
+      "body_snippet": "Someone carrying a large box asks you to hold the door open for them.",
+      "context": "Walking through the office hallways."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Use the found badge to see whose it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Assume they are supposed to be there and ignore them.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Politely ask them to use their own badge or direct them to reception.",
+        "is_correct": true,
+        "explanation": "Physical access controls rely on every individual verifying authorization."
+      },
+      {
+        "id": "D",
+        "text": "Hold the door open for them to be polite.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "mfa-fatigue-4",
+    "scenario_date": "2026-08-31",
+    "topic": "Unusual Login Attempt",
+    "threat_type": "MFA Fatigue",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Service Desk",
+      "subject": "Unusual Login Attempt",
+      "body_snippet": "We detected a login from Russia. Click here and log in to secure your account.",
+      "context": "You are prompted to log in to a familiar service, but the URL looks strange."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Provide your password since they are IT.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Never share your password and navigate to the service manually.",
+        "is_correct": true,
+        "explanation": "Legitimate IT staff will never ask for your password."
+      },
+      {
+        "id": "C",
+        "text": "Share your credentials with your colleague temporarily.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Click the link and log in to be safe.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "physical-security-1",
+    "scenario_date": "2026-08-23",
+    "topic": "Holding the Door",
+    "threat_type": "Physical Security",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Delivery Person",
+      "subject": "Holding the Door",
+      "body_snippet": "You find a lost access badge in the parking lot.",
+      "context": "Arriving at work in the morning."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Hold the door open for them to be polite.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Use the found badge to see whose it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Politely ask them to use their own badge or direct them to reception.",
+        "is_correct": true,
+        "explanation": "Tailgating is a common method for unauthorized physical access."
+      },
+      {
+        "id": "D",
+        "text": "Assume they are supposed to be there and ignore them.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "insider-threat-8",
+    "scenario_date": "2026-09-15",
+    "topic": "Unauthorized Access",
+    "threat_type": "Insider Threat",
+    "difficulty": "Medium",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "Overly Curious Colleague",
+      "subject": "Unauthorized Access",
+      "body_snippet": "You notice a co-worker downloading large amounts of data to a USB drive.",
+      "context": "Reviewing audit logs."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Grant them access since they asked nicely.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Ignore it, it's probably fine.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Report the suspicious behavior to HR or Security.",
+        "is_correct": true,
+        "explanation": "Even colleagues can pose a security risk if policies are not followed."
+      },
+      {
+        "id": "D",
+        "text": "Confront the colleague directly and aggressively.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "vishing-/-fake-helpdesk-4",
+    "scenario_date": "2026-09-07",
+    "topic": "VPN Usage",
+    "threat_type": "Vishing / Fake Helpdesk",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Home Router",
+      "subject": "VPN Usage",
+      "body_snippet": "Your home router still uses the default admin password.",
+      "context": "Working remotely from a coffee shop."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave your laptop unlocked while you grab a coffee.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Always use the corporate VPN on public networks and position your screen privately.",
+        "is_correct": true,
+        "explanation": "VPNs encrypt your traffic, protecting it from interception on public networks."
+      },
+      {
+        "id": "C",
+        "text": "Work on sensitive documents where others can easily see your screen.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Connect directly to public Wi-Fi without a VPN.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "oauth-app-consent-phishing-4",
+    "scenario_date": "2026-08-31",
+    "topic": "Suspected Breach",
+    "threat_type": "OAuth App Consent Phishing",
+    "difficulty": "Medium",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Security Operations",
+      "subject": "Suspected Breach",
+      "body_snippet": "You accidentally clicked a link in a phishing email.",
+      "context": "Observing policy non-compliance in the workplace."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Hide the mistake and hope nothing happens.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Try to fix the issue yourself without telling anyone.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Report the incident immediately using official channels.",
+        "is_correct": true,
+        "explanation": "Hiding incidents often leads to much greater damage and consequences."
+      },
+      {
+        "id": "D",
+        "text": "Wait until your next performance review to mention it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "mfa-fatigue-0",
+    "scenario_date": "2026-09-04",
+    "topic": "Verify Your Credentials",
+    "threat_type": "MFA Fatigue",
+    "difficulty": "Easy",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "System Administrator",
+      "subject": "Verify Your Credentials",
+      "body_snippet": "We detected a login from Russia. Click here and log in to secure your account.",
+      "context": "You receive a phone call from someone claiming to be IT asking for your password."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Share your credentials with your colleague temporarily.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Provide your password since they are IT.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Click the link and log in to be safe.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Never share your password and navigate to the service manually.",
+        "is_correct": true,
+        "explanation": "Legitimate IT staff will never ask for your password."
+      }
+    ]
+  },
+  {
+    "id": "insider-threat-4",
+    "scenario_date": "2026-09-11",
+    "topic": "Data Export",
+    "threat_type": "Insider Threat",
+    "difficulty": "Medium",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "Overly Curious Colleague",
+      "subject": "Data Export",
+      "body_snippet": "You notice a co-worker downloading large amounts of data to a USB drive.",
+      "context": "Reviewing audit logs."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignore it, it's probably fine.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Report the suspicious behavior to HR or Security.",
+        "is_correct": true,
+        "explanation": "Reporting suspicious internal behavior is key to preventing data loss."
+      },
+      {
+        "id": "C",
+        "text": "Confront the colleague directly and aggressively.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Grant them access since they asked nicely.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "insider-threat-6",
+    "scenario_date": "2026-08-26",
+    "topic": "Sharing Access",
+    "threat_type": "Insider Threat",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Overly Curious Colleague",
+      "subject": "Sharing Access",
+      "body_snippet": "An employee who is leaving next week asks you to email them some client lists.",
+      "context": "Reviewing audit logs."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Grant them access since they asked nicely.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Report the suspicious behavior to HR or Security.",
+        "is_correct": true,
+        "explanation": "Even colleagues can pose a security risk if policies are not followed."
+      },
+      {
+        "id": "C",
+        "text": "Ignore it, it's probably fine.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Confront the colleague directly and aggressively.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "credential-harvesting-7",
+    "scenario_date": "2026-09-11",
+    "topic": "Account Suspension Notice",
+    "threat_type": "Credential Harvesting",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "support@it-desk-help.com",
+      "subject": "Account Suspension Notice",
+      "body_snippet": "Review the attached document to claim your new benefits.",
+      "context": "A message on LinkedIn from someone claiming to be IT."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Reply to ask who it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Ignore and delete without reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Report via the official phishing button.",
+        "is_correct": true,
+        "explanation": "Official channels should always be used to report suspicious messages."
+      },
+      {
+        "id": "D",
+        "text": "Click to check the URL.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "insider-threat-1",
+    "scenario_date": "2026-09-07",
+    "topic": "Sharing Access",
+    "threat_type": "Insider Threat",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Overly Curious Colleague",
+      "subject": "Sharing Access",
+      "body_snippet": "A colleague asks for access to a project folder they shouldn't be in.",
+      "context": "Casual conversation in the breakroom."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Report the suspicious behavior to HR or Security.",
+        "is_correct": true,
+        "explanation": "Even colleagues can pose a security risk if policies are not followed."
+      },
+      {
+        "id": "B",
+        "text": "Grant them access since they asked nicely.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Ignore it, it's probably fine.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Confront the colleague directly and aggressively.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "mfa-fatigue-5",
+    "scenario_date": "2026-08-18",
+    "topic": "Unusual Login Attempt",
+    "threat_type": "MFA Fatigue",
+    "difficulty": "Hard",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Service Desk",
+      "subject": "Unusual Login Attempt",
+      "body_snippet": "Please reply with your current password to verify your account.",
+      "context": "A colleague asks to borrow your login because theirs is locked."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Provide your password since they are IT.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Never share your password and navigate to the service manually.",
+        "is_correct": true,
+        "explanation": "Always check the URL and navigate directly to the service."
+      },
+      {
+        "id": "C",
+        "text": "Share your credentials with your colleague temporarily.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Click the link and log in to be safe.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "cloud-misconfiguration-3",
+    "scenario_date": "2026-09-13",
+    "topic": "Sharing PII",
+    "threat_type": "Cloud Misconfiguration",
+    "difficulty": "Easy",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Cloud Storage Provider",
+      "subject": "Sharing PII",
+      "body_snippet": "You have printed confidential reports that you no longer need.",
+      "context": "Handling customer data for a marketing campaign."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Store the PII on your personal Google Drive.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Throw the printed reports in the regular recycling bin.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Use an approved, encrypted transfer method and shred physical documents.",
+        "is_correct": true,
+        "explanation": "Unencrypted emails and regular trash bins expose sensitive data to unauthorized access."
+      },
+      {
+        "id": "D",
+        "text": "Email the unencrypted file directly to the partner.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "lookalike-domain-9",
+    "scenario_date": "2026-08-22",
+    "topic": "Stolen Phone",
+    "threat_type": "Lookalike Domain",
+    "difficulty": "Easy",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Taxi Driver",
+      "subject": "Stolen Phone",
+      "body_snippet": "Your laptop is stolen from your hotel room.",
+      "context": "Traveling for business."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave the device unlocked on your desk.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Try to track and recover the device yourself.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Report the loss immediately so a remote wipe can be initiated.",
+        "is_correct": true,
+        "explanation": "Remote wipe capabilities can protect data on lost devices if reported promptly."
+      },
+      {
+        "id": "D",
+        "text": "Wait a few days to see if it turns up before reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "insider-threat-0",
+    "scenario_date": "2026-09-09",
+    "topic": "Data Export",
+    "threat_type": "Insider Threat",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Departing Staff",
+      "subject": "Data Export",
+      "body_snippet": "A colleague asks for access to a project folder they shouldn't be in.",
+      "context": "Reviewing audit logs."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignore it, it's probably fine.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Grant them access since they asked nicely.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Report the suspicious behavior to HR or Security.",
+        "is_correct": true,
+        "explanation": "Even colleagues can pose a security risk if policies are not followed."
+      },
+      {
+        "id": "D",
+        "text": "Confront the colleague directly and aggressively.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "lookalike-domain-5",
+    "scenario_date": "2026-09-01",
+    "topic": "Unattended Device",
+    "threat_type": "Lookalike Domain",
+    "difficulty": "Medium",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Taxi Driver",
+      "subject": "Unattended Device",
+      "body_snippet": "You need to step away from your laptop at a conference.",
+      "context": "Commuting to the office."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait a few days to see if it turns up before reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Report the loss immediately so a remote wipe can be initiated.",
+        "is_correct": true,
+        "explanation": "Remote wipe capabilities can protect data on lost devices if reported promptly."
+      },
+      {
+        "id": "C",
+        "text": "Try to track and recover the device yourself.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Leave the device unlocked on your desk.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "insider-threat-2",
+    "scenario_date": "2026-08-24",
+    "topic": "Data Export",
+    "threat_type": "Insider Threat",
+    "difficulty": "Hard",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Disgruntled Employee",
+      "subject": "Data Export",
+      "body_snippet": "You notice a co-worker downloading large amounts of data to a USB drive.",
+      "context": "Casual conversation in the breakroom."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Grant them access since they asked nicely.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Ignore it, it's probably fine.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Report the suspicious behavior to HR or Security.",
+        "is_correct": true,
+        "explanation": "Reporting suspicious internal behavior is key to preventing data loss."
+      },
+      {
+        "id": "D",
+        "text": "Confront the colleague directly and aggressively.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "bec-/-vendor-impersonation-8",
+    "scenario_date": "2026-08-25",
+    "topic": "Updated Banking Details",
+    "threat_type": "BEC / Vendor Impersonation",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "finance@supplier-portal.co",
+      "subject": "Updated Banking Details",
+      "body_snippet": "I need you to process a wire transfer to our new vendor immediately.",
+      "context": "Marked as 'Urgent' and 'Confidential'."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Verify the request via a known, trusted phone number.",
+        "is_correct": true,
+        "explanation": "Always verify unexpected financial changes verbally with a known contact."
+      },
+      {
+        "id": "B",
+        "text": "Forward to a colleague and ask them to do it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Reply to the email to confirm the new details.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Process the payment immediately as requested.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "mfa-fatigue-9",
+    "scenario_date": "2026-08-19",
+    "topic": "Verify Your Credentials",
+    "threat_type": "MFA Fatigue",
+    "difficulty": "Medium",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Security Team",
+      "subject": "Verify Your Credentials",
+      "body_snippet": "Your session expired. Please enter your credentials on this external page.",
+      "context": "You are prompted to log in to a familiar service, but the URL looks strange."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Share your credentials with your colleague temporarily.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Provide your password since they are IT.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Never share your password and navigate to the service manually.",
+        "is_correct": true,
+        "explanation": "Legitimate IT staff will never ask for your password."
+      },
+      {
+        "id": "D",
+        "text": "Click the link and log in to be safe.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "oauth-app-consent-phishing-8",
+    "scenario_date": "2026-08-30",
+    "topic": "Policy Violation",
+    "threat_type": "OAuth App Consent Phishing",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Compliance Officer",
+      "subject": "Policy Violation",
+      "body_snippet": "You accidentally clicked a link in a phishing email.",
+      "context": "Realizing a mistake was made."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Report the incident immediately using official channels.",
+        "is_correct": true,
+        "explanation": "Early detection and reporting are critical for effective incident response."
+      },
+      {
+        "id": "B",
+        "text": "Wait until your next performance review to mention it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Try to fix the issue yourself without telling anyone.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Hide the mistake and hope nothing happens.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "cloud-misconfiguration-7",
+    "scenario_date": "2026-09-12",
+    "topic": "Sharing PII",
+    "threat_type": "Cloud Misconfiguration",
+    "difficulty": "Easy",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Cloud Storage Provider",
+      "subject": "Sharing PII",
+      "body_snippet": "A partner requests a list of customer emails in an Excel file.",
+      "context": "Cleaning out your desk at the office."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Email the unencrypted file directly to the partner.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Use an approved, encrypted transfer method and shred physical documents.",
+        "is_correct": true,
+        "explanation": "Unencrypted emails and regular trash bins expose sensitive data to unauthorized access."
+      },
+      {
+        "id": "C",
+        "text": "Throw the printed reports in the regular recycling bin.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Store the PII on your personal Google Drive.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "insider-threat-3",
+    "scenario_date": "2026-08-26",
+    "topic": "Data Export",
+    "threat_type": "Insider Threat",
+    "difficulty": "Easy",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Overly Curious Colleague",
+      "subject": "Data Export",
+      "body_snippet": "You notice a co-worker downloading large amounts of data to a USB drive.",
+      "context": "Working late in the office."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignore it, it's probably fine.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Confront the colleague directly and aggressively.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Grant them access since they asked nicely.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Report the suspicious behavior to HR or Security.",
+        "is_correct": true,
+        "explanation": "Reporting suspicious internal behavior is key to preventing data loss."
+      }
+    ]
+  },
+  {
+    "id": "malicious-attachment-2",
+    "scenario_date": "2026-09-08",
+    "topic": "Macro Warning",
+    "threat_type": "Malicious Attachment",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Automated System",
+      "subject": "Macro Warning",
+      "body_snippet": "Your PC is infected! Download this tool to clean it.",
+      "context": "You receive an unsolicited email with a ZIP file."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Disconnect from the network and contact IT immediately.",
+        "is_correct": true,
+        "explanation": "Never enable macros on unexpected documents."
+      },
+      {
+        "id": "B",
+        "text": "Open the file to see what it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Enable macros just this once.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Run your own antivirus scan and continue working.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "physical-security-6",
+    "scenario_date": "2026-09-07",
+    "topic": "Lost Badge",
+    "threat_type": "Physical Security",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Delivery Person",
+      "subject": "Lost Badge",
+      "body_snippet": "Someone carrying a large box asks you to hold the door open for them.",
+      "context": "Walking through the office hallways."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Assume they are supposed to be there and ignore them.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Use the found badge to see whose it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Hold the door open for them to be polite.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Politely ask them to use their own badge or direct them to reception.",
+        "is_correct": true,
+        "explanation": "Physical access controls rely on every individual verifying authorization."
+      }
+    ]
+  },
+  {
+    "id": "bec-/-vendor-impersonation-4",
+    "scenario_date": "2026-08-24",
+    "topic": "Wire Transfer Request",
+    "threat_type": "BEC / Vendor Impersonation",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "finance@supplier-portal.co",
+      "subject": "Wire Transfer Request",
+      "body_snippet": "Please update our banking details for all future invoices to the attached account.",
+      "context": "Invoice received from a known vendor, but the reply-to address is different."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Process the payment immediately as requested.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Forward to a colleague and ask them to do it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Reply to the email to confirm the new details.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Verify the request via a known, trusted phone number.",
+        "is_correct": true,
+        "explanation": "Out-of-band verification is crucial for financial requests."
+      }
+    ]
+  },
+  {
+    "id": "physical-security-3",
+    "scenario_date": "2026-08-24",
+    "topic": "Unescorted Visitor",
+    "threat_type": "Physical Security",
+    "difficulty": "Easy",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Delivery Person",
+      "subject": "Unescorted Visitor",
+      "body_snippet": "You see someone wandering the office without a visitor badge.",
+      "context": "Arriving at work in the morning."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Assume they are supposed to be there and ignore them.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Use the found badge to see whose it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Hold the door open for them to be polite.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Politely ask them to use their own badge or direct them to reception.",
+        "is_correct": true,
+        "explanation": "Physical access controls rely on every individual verifying authorization."
+      }
+    ]
+  },
+  {
+    "id": "credential-harvesting-0",
+    "scenario_date": "2026-09-07",
+    "topic": "Account Suspension Notice",
+    "threat_type": "Credential Harvesting",
+    "difficulty": "Medium",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "hr@benefits-portal-update.com",
+      "subject": "Account Suspension Notice",
+      "body_snippet": "Click the link below to verify your account immediately.",
+      "context": "A message on LinkedIn from someone claiming to be IT."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Report via the official phishing button.",
+        "is_correct": true,
+        "explanation": "Official channels should always be used to report suspicious messages."
+      },
+      {
+        "id": "B",
+        "text": "Reply to ask who it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Click to check the URL.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Ignore and delete without reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "malicious-attachment-5",
+    "scenario_date": "2026-08-27",
+    "topic": "Macro Warning",
+    "threat_type": "Malicious Attachment",
+    "difficulty": "Medium",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "no-reply@scanner.com",
+      "subject": "Macro Warning",
+      "body_snippet": "This document requires you to Enable Content to view.",
+      "context": "A pop-up appears on a website you are browsing."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Open the file to see what it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Disconnect from the network and contact IT immediately.",
+        "is_correct": true,
+        "explanation": "Never enable macros on unexpected documents."
+      },
+      {
+        "id": "C",
+        "text": "Run your own antivirus scan and continue working.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Enable macros just this once.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "lookalike-domain-4",
+    "scenario_date": "2026-09-07",
+    "topic": "Unattended Device",
+    "threat_type": "Lookalike Domain",
+    "difficulty": "Medium",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Conference Organizer",
+      "subject": "Unattended Device",
+      "body_snippet": "You realize you left your company phone in a taxi.",
+      "context": "Traveling for business."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait a few days to see if it turns up before reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Leave the device unlocked on your desk.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Try to track and recover the device yourself.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Report the loss immediately so a remote wipe can be initiated.",
+        "is_correct": true,
+        "explanation": "Remote wipe capabilities can protect data on lost devices if reported promptly."
+      }
+    ]
+  },
+  {
+    "id": "bec-/-vendor-impersonation-9",
+    "scenario_date": "2026-08-31",
+    "topic": "Updated Banking Details",
+    "threat_type": "BEC / Vendor Impersonation",
+    "difficulty": "Medium",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "finance@supplier-portal.co",
+      "subject": "Updated Banking Details",
+      "body_snippet": "Please update our banking details for all future invoices to the attached account.",
+      "context": "Marked as 'Urgent' and 'Confidential'."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Forward to a colleague and ask them to do it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Verify the request via a known, trusted phone number.",
+        "is_correct": true,
+        "explanation": "Always verify unexpected financial changes verbally with a known contact."
+      },
+      {
+        "id": "C",
+        "text": "Reply to the email to confirm the new details.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Process the payment immediately as requested.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "vishing-/-fake-helpdesk-2",
+    "scenario_date": "2026-09-12",
+    "topic": "VPN Usage",
+    "threat_type": "Vishing / Fake Helpdesk",
+    "difficulty": "Medium",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Coffee Shop Wi-Fi",
+      "subject": "VPN Usage",
+      "body_snippet": "Your home router still uses the default admin password.",
+      "context": "Working remotely from a coffee shop."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave your laptop unlocked while you grab a coffee.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Work on sensitive documents where others can easily see your screen.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Connect directly to public Wi-Fi without a VPN.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Always use the corporate VPN on public networks and position your screen privately.",
+        "is_correct": true,
+        "explanation": "VPNs encrypt your traffic, protecting it from interception on public networks."
+      }
+    ]
+  },
+  {
+    "id": "malicious-attachment-0",
+    "scenario_date": "2026-08-23",
+    "topic": "Macro Warning",
+    "threat_type": "Malicious Attachment",
+    "difficulty": "Easy",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Unknown User",
+      "subject": "Macro Warning",
+      "body_snippet": "Please find the invoice attached (invoice.zip).",
+      "context": "You receive an unsolicited email with a ZIP file."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Enable macros just this once.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Run your own antivirus scan and continue working.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Disconnect from the network and contact IT immediately.",
+        "is_correct": true,
+        "explanation": "Disconnecting prevents the malware from spreading across the network."
+      },
+      {
+        "id": "D",
+        "text": "Open the file to see what it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "cloud-misconfiguration-2",
+    "scenario_date": "2026-08-20",
+    "topic": "Sharing PII",
+    "threat_type": "Cloud Misconfiguration",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "External Partner",
+      "subject": "Sharing PII",
+      "body_snippet": "You need to send sensitive health data to a vendor.",
+      "context": "Collaborating with a third-party vendor."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Use an approved, encrypted transfer method and shred physical documents.",
+        "is_correct": true,
+        "explanation": "Protecting PII and sensitive data requires secure transfer and disposal methods."
+      },
+      {
+        "id": "B",
+        "text": "Throw the printed reports in the regular recycling bin.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Store the PII on your personal Google Drive.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Email the unencrypted file directly to the partner.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "mfa-fatigue-1",
+    "scenario_date": "2026-08-22",
+    "topic": "Unusual Login Attempt",
+    "threat_type": "MFA Fatigue",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Service Desk",
+      "subject": "Unusual Login Attempt",
+      "body_snippet": "Your session expired. Please enter your credentials on this external page.",
+      "context": "A colleague asks to borrow your login because theirs is locked."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Provide your password since they are IT.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Never share your password and navigate to the service manually.",
+        "is_correct": true,
+        "explanation": "Always check the URL and navigate directly to the service."
+      },
+      {
+        "id": "C",
+        "text": "Click the link and log in to be safe.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Share your credentials with your colleague temporarily.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "vishing-/-fake-helpdesk-1",
+    "scenario_date": "2026-09-11",
+    "topic": "Shoulder Surfing",
+    "threat_type": "Vishing / Fake Helpdesk",
+    "difficulty": "Easy",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Coffee Shop Wi-Fi",
+      "subject": "Shoulder Surfing",
+      "body_snippet": "You are working in a crowded cafe and need to review confidential documents.",
+      "context": "Working remotely from a coffee shop."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Work on sensitive documents where others can easily see your screen.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Leave your laptop unlocked while you grab a coffee.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Connect directly to public Wi-Fi without a VPN.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Always use the corporate VPN on public networks and position your screen privately.",
+        "is_correct": true,
+        "explanation": "Screen privacy and VPN usage are critical when working in public spaces."
+      }
+    ]
+  },
+  {
+    "id": "credential-harvesting-8",
+    "scenario_date": "2026-09-11",
+    "topic": "Password Expiry",
+    "threat_type": "Credential Harvesting",
+    "difficulty": "Easy",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "hr@benefits-portal-update.com",
+      "subject": "Password Expiry",
+      "body_snippet": "Click the link below to verify your account immediately.",
+      "context": "A message on LinkedIn from someone claiming to be IT."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Reply to ask who it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Click to check the URL.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Ignore and delete without reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Report via the official phishing button.",
+        "is_correct": true,
+        "explanation": "Official channels should always be used to report suspicious messages."
+      }
+    ]
+  },
+  {
+    "id": "malicious-attachment-6",
+    "scenario_date": "2026-09-06",
+    "topic": "Unexpected Attachment",
+    "threat_type": "Malicious Attachment",
+    "difficulty": "Easy",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "no-reply@scanner.com",
+      "subject": "Unexpected Attachment",
+      "body_snippet": "Please find the invoice attached (invoice.zip).",
+      "context": "You plug in a USB drive found in the lobby."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Run your own antivirus scan and continue working.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Disconnect from the network and contact IT immediately.",
+        "is_correct": true,
+        "explanation": "Disconnecting prevents the malware from spreading across the network."
+      },
+      {
+        "id": "C",
+        "text": "Enable macros just this once.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Open the file to see what it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "insider-threat-9",
+    "scenario_date": "2026-09-14",
+    "topic": "Sharing Access",
+    "threat_type": "Insider Threat",
+    "difficulty": "Easy",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Departing Staff",
+      "subject": "Sharing Access",
+      "body_snippet": "An employee who is leaving next week asks you to email them some client lists.",
+      "context": "Working late in the office."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignore it, it's probably fine.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Grant them access since they asked nicely.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Confront the colleague directly and aggressively.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Report the suspicious behavior to HR or Security.",
+        "is_correct": true,
+        "explanation": "Reporting suspicious internal behavior is key to preventing data loss."
+      }
+    ]
+  },
+  {
+    "id": "oauth-app-consent-phishing-0",
+    "scenario_date": "2026-08-22",
+    "topic": "Phishing Click",
+    "threat_type": "OAuth App Consent Phishing",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Compliance Officer",
+      "subject": "Phishing Click",
+      "body_snippet": "You witness a colleague violating a major security policy.",
+      "context": "Observing policy non-compliance in the workplace."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Try to fix the issue yourself without telling anyone.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Hide the mistake and hope nothing happens.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Wait until your next performance review to mention it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Report the incident immediately using official channels.",
+        "is_correct": true,
+        "explanation": "Hiding incidents often leads to much greater damage and consequences."
+      }
+    ]
+  },
+  {
+    "id": "cloud-misconfiguration-0",
+    "scenario_date": "2026-08-18",
+    "topic": "Sharing PII",
+    "threat_type": "Cloud Misconfiguration",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Cloud Storage Provider",
+      "subject": "Sharing PII",
+      "body_snippet": "You have printed confidential reports that you no longer need.",
+      "context": "Handling customer data for a marketing campaign."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Use an approved, encrypted transfer method and shred physical documents.",
+        "is_correct": true,
+        "explanation": "Protecting PII and sensitive data requires secure transfer and disposal methods."
+      },
+      {
+        "id": "B",
+        "text": "Throw the printed reports in the regular recycling bin.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Email the unencrypted file directly to the partner.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Store the PII on your personal Google Drive.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "insider-threat-7",
+    "scenario_date": "2026-09-08",
+    "topic": "Data Export",
+    "threat_type": "Insider Threat",
+    "difficulty": "Easy",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Departing Staff",
+      "subject": "Data Export",
+      "body_snippet": "You notice a co-worker downloading large amounts of data to a USB drive.",
+      "context": "Working late in the office."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Report the suspicious behavior to HR or Security.",
+        "is_correct": true,
+        "explanation": "Even colleagues can pose a security risk if policies are not followed."
+      },
+      {
+        "id": "B",
+        "text": "Grant them access since they asked nicely.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Confront the colleague directly and aggressively.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Ignore it, it's probably fine.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "credential-harvesting-5",
+    "scenario_date": "2026-08-21",
+    "topic": "Urgent Benefit Update",
+    "threat_type": "Credential Harvesting",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "hr@benefits-portal-update.com",
+      "subject": "Urgent Benefit Update",
+      "body_snippet": "Your password expires in 2 hours. Click to keep it.",
+      "context": "Received via SMS on your company phone."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignore and delete without reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Report via the official phishing button.",
+        "is_correct": true,
+        "explanation": "Reporting helps the security team block the attack for everyone."
+      },
+      {
+        "id": "C",
+        "text": "Reply to ask who it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Click to check the URL.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "vishing-/-fake-helpdesk-6",
+    "scenario_date": "2026-09-05",
+    "topic": "Shoulder Surfing",
+    "threat_type": "Vishing / Fake Helpdesk",
+    "difficulty": "Easy",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Coffee Shop Wi-Fi",
+      "subject": "Shoulder Surfing",
+      "body_snippet": "Your home router still uses the default admin password.",
+      "context": "Working remotely from a coffee shop."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Always use the corporate VPN on public networks and position your screen privately.",
+        "is_correct": true,
+        "explanation": "Screen privacy and VPN usage are critical when working in public spaces."
+      },
+      {
+        "id": "B",
+        "text": "Work on sensitive documents where others can easily see your screen.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Leave your laptop unlocked while you grab a coffee.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Connect directly to public Wi-Fi without a VPN.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "lookalike-domain-3",
+    "scenario_date": "2026-09-08",
+    "topic": "Unattended Device",
+    "threat_type": "Lookalike Domain",
+    "difficulty": "Easy",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Hotel Staff",
+      "subject": "Unattended Device",
+      "body_snippet": "You need to step away from your laptop at a conference.",
+      "context": "Attending a busy industry conference."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait a few days to see if it turns up before reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Try to track and recover the device yourself.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Report the loss immediately so a remote wipe can be initiated.",
+        "is_correct": true,
+        "explanation": "Remote wipe capabilities can protect data on lost devices if reported promptly."
+      },
+      {
+        "id": "D",
+        "text": "Leave the device unlocked on your desk.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "vishing-/-fake-helpdesk-8",
+    "scenario_date": "2026-08-19",
+    "topic": "Connecting to Public Network",
+    "threat_type": "Vishing / Fake Helpdesk",
+    "difficulty": "Medium",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "Airport Network",
+      "subject": "Connecting to Public Network",
+      "body_snippet": "Please connect to 'Free_Airport_WiFi' to access the internet.",
+      "context": "Setting up your home office network."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Connect directly to public Wi-Fi without a VPN.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Work on sensitive documents where others can easily see your screen.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Leave your laptop unlocked while you grab a coffee.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "D",
+        "text": "Always use the corporate VPN on public networks and position your screen privately.",
+        "is_correct": true,
+        "explanation": "Screen privacy and VPN usage are critical when working in public spaces."
+      }
+    ]
+  },
+  {
+    "id": "physical-security-4",
+    "scenario_date": "2026-08-20",
+    "topic": "Holding the Door",
+    "threat_type": "Physical Security",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Unknown Individual",
+      "subject": "Holding the Door",
+      "body_snippet": "You find a lost access badge in the parking lot.",
+      "context": "Entering the secure office building."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Assume they are supposed to be there and ignore them.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Politely ask them to use their own badge or direct them to reception.",
+        "is_correct": true,
+        "explanation": "Physical access controls rely on every individual verifying authorization."
+      },
+      {
+        "id": "C",
+        "text": "Hold the door open for them to be polite.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Use the found badge to see whose it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "bec-/-vendor-impersonation-7",
+    "scenario_date": "2026-08-20",
+    "topic": "Updated Banking Details",
+    "threat_type": "BEC / Vendor Impersonation",
+    "difficulty": "Medium",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "ceo@company-exec.net",
+      "subject": "Updated Banking Details",
+      "body_snippet": "We have a critical payment pending. Process it today to avoid delays.",
+      "context": "Invoice received from a known vendor, but the reply-to address is different."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Process the payment immediately as requested.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "B",
+        "text": "Forward to a colleague and ask them to do it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Reply to the email to confirm the new details.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Verify the request via a known, trusted phone number.",
+        "is_correct": true,
+        "explanation": "Always verify unexpected financial changes verbally with a known contact."
+      }
+    ]
+  },
+  {
+    "id": "credential-harvesting-3",
+    "scenario_date": "2026-09-11",
+    "topic": "Account Suspension Notice",
+    "threat_type": "Credential Harvesting",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "support@it-desk-help.com",
+      "subject": "Account Suspension Notice",
+      "body_snippet": "Your password expires in 2 hours. Click to keep it.",
+      "context": "A message on LinkedIn from someone claiming to be IT."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Report via the official phishing button.",
+        "is_correct": true,
+        "explanation": "Reporting helps the security team block the attack for everyone."
+      },
+      {
+        "id": "B",
+        "text": "Reply to ask who it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Click to check the URL.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Ignore and delete without reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      }
+    ]
+  },
+  {
+    "id": "oauth-app-consent-phishing-5",
+    "scenario_date": "2026-09-10",
+    "topic": "Phishing Click",
+    "threat_type": "OAuth App Consent Phishing",
+    "difficulty": "Easy",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Helpdesk",
+      "subject": "Phishing Click",
+      "body_snippet": "You accidentally clicked a link in a phishing email.",
+      "context": "Noticing strange activity on your account."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait until your next performance review to mention it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Try to fix the issue yourself without telling anyone.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Report the incident immediately using official channels.",
+        "is_correct": true,
+        "explanation": "Hiding incidents often leads to much greater damage and consequences."
+      },
+      {
+        "id": "D",
+        "text": "Hide the mistake and hope nothing happens.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "malicious-attachment-3",
+    "scenario_date": "2026-08-23",
+    "topic": "System Alert",
+    "threat_type": "Malicious Attachment",
+    "difficulty": "Hard",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "no-reply@scanner.com",
+      "subject": "System Alert",
+      "body_snippet": "This document requires you to Enable Content to view.",
+      "context": "You receive an unsolicited email with a ZIP file."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Enable macros just this once.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "B",
+        "text": "Run your own antivirus scan and continue working.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Disconnect from the network and contact IT immediately.",
+        "is_correct": true,
+        "explanation": "Disconnecting prevents the malware from spreading across the network."
+      },
+      {
+        "id": "D",
+        "text": "Open the file to see what it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "bec-/-vendor-impersonation-2",
+    "scenario_date": "2026-08-28",
+    "topic": "Updated Banking Details",
+    "threat_type": "BEC / Vendor Impersonation",
+    "difficulty": "Medium",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "ceo@company-exec.net",
+      "subject": "Updated Banking Details",
+      "body_snippet": "I need you to process a wire transfer to our new vendor immediately.",
+      "context": "Marked as 'Urgent' and 'Confidential'."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Verify the request via a known, trusted phone number.",
+        "is_correct": true,
+        "explanation": "Always verify unexpected financial changes verbally with a known contact."
+      },
+      {
+        "id": "B",
+        "text": "Forward to a colleague and ask them to do it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "C",
+        "text": "Reply to the email to confirm the new details.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Process the payment immediately as requested.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "vishing-/-fake-helpdesk-7",
+    "scenario_date": "2026-09-06",
+    "topic": "Connecting to Public Network",
+    "threat_type": "Vishing / Fake Helpdesk",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Coffee Shop Wi-Fi",
+      "subject": "Connecting to Public Network",
+      "body_snippet": "Please connect to 'Free_Airport_WiFi' to access the internet.",
+      "context": "Setting up your home office network."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave your laptop unlocked while you grab a coffee.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Work on sensitive documents where others can easily see your screen.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Connect directly to public Wi-Fi without a VPN.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Always use the corporate VPN on public networks and position your screen privately.",
+        "is_correct": true,
+        "explanation": "VPNs encrypt your traffic, protecting it from interception on public networks."
+      }
+    ]
+  },
+  {
+    "id": "oauth-app-consent-phishing-9",
+    "scenario_date": "2026-08-20",
+    "topic": "Policy Violation",
+    "threat_type": "OAuth App Consent Phishing",
+    "difficulty": "Hard",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Compliance Officer",
+      "subject": "Policy Violation",
+      "body_snippet": "You accidentally clicked a link in a phishing email.",
+      "context": "Noticing strange activity on your account."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait until your next performance review to mention it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Report the incident immediately using official channels.",
+        "is_correct": true,
+        "explanation": "Early detection and reporting are critical for effective incident response."
+      },
+      {
+        "id": "C",
+        "text": "Try to fix the issue yourself without telling anyone.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Hide the mistake and hope nothing happens.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "bec-/-vendor-impersonation-0",
+    "scenario_date": "2026-08-17",
+    "topic": "Urgent Payment Needed",
+    "threat_type": "BEC / Vendor Impersonation",
+    "difficulty": "Hard",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "ceo@company-exec.net",
+      "subject": "Urgent Payment Needed",
+      "body_snippet": "Please update our banking details for all future invoices to the attached account.",
+      "context": "Marked as 'Urgent' and 'Confidential'."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Forward to a colleague and ask them to do it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Process the payment immediately as requested.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Reply to the email to confirm the new details.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Verify the request via a known, trusted phone number.",
+        "is_correct": true,
+        "explanation": "Out-of-band verification is crucial for financial requests."
+      }
+    ]
+  },
+  {
+    "id": "physical-security-0",
+    "scenario_date": "2026-08-25",
+    "topic": "Unescorted Visitor",
+    "threat_type": "Physical Security",
+    "difficulty": "Hard",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Unknown Individual",
+      "subject": "Unescorted Visitor",
+      "body_snippet": "Someone carrying a large box asks you to hold the door open for them.",
+      "context": "Walking through the office hallways."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Use the found badge to see whose it is.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Politely ask them to use their own badge or direct them to reception.",
+        "is_correct": true,
+        "explanation": "Tailgating is a common method for unauthorized physical access."
+      },
+      {
+        "id": "C",
+        "text": "Assume they are supposed to be there and ignore them.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Hold the door open for them to be polite.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "lookalike-domain-7",
+    "scenario_date": "2026-09-07",
+    "topic": "Stolen Phone",
+    "threat_type": "Lookalike Domain",
+    "difficulty": "Medium",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Conference Organizer",
+      "subject": "Stolen Phone",
+      "body_snippet": "Your laptop is stolen from your hotel room.",
+      "context": "Traveling for business."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave the device unlocked on your desk.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Try to track and recover the device yourself.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Wait a few days to see if it turns up before reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "D",
+        "text": "Report the loss immediately so a remote wipe can be initiated.",
+        "is_correct": true,
+        "explanation": "Immediate reporting minimizes the window for data compromise."
+      }
+    ]
+  },
+  {
+    "id": "oauth-app-consent-phishing-6",
+    "scenario_date": "2026-08-30",
+    "topic": "Suspected Breach",
+    "threat_type": "OAuth App Consent Phishing",
+    "difficulty": "Easy",
+    "points_reward": 50,
+    "briefing": {
+      "sender": "Security Operations",
+      "subject": "Suspected Breach",
+      "body_snippet": "You witness a colleague violating a major security policy.",
+      "context": "Observing policy non-compliance in the workplace."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait until your next performance review to mention it.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Try to fix the issue yourself without telling anyone.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "C",
+        "text": "Report the incident immediately using official channels.",
+        "is_correct": true,
+        "explanation": "Early detection and reporting are critical for effective incident response."
+      },
+      {
+        "id": "D",
+        "text": "Hide the mistake and hope nothing happens.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "lookalike-domain-2",
+    "scenario_date": "2026-09-06",
+    "topic": "Lost Laptop",
+    "threat_type": "Lookalike Domain",
+    "difficulty": "Medium",
+    "points_reward": 150,
+    "briefing": {
+      "sender": "Conference Organizer",
+      "subject": "Lost Laptop",
+      "body_snippet": "You realize you left your company phone in a taxi.",
+      "context": "Attending a busy industry conference."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave the device unlocked on your desk.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Wait a few days to see if it turns up before reporting.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Report the loss immediately so a remote wipe can be initiated.",
+        "is_correct": true,
+        "explanation": "Immediate reporting minimizes the window for data compromise."
+      },
+      {
+        "id": "D",
+        "text": "Try to track and recover the device yourself.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      }
+    ]
+  },
+  {
+    "id": "mfa-fatigue-7",
+    "scenario_date": "2026-08-19",
+    "topic": "Verify Your Credentials",
+    "threat_type": "MFA Fatigue",
+    "difficulty": "Easy",
+    "points_reward": 100,
+    "briefing": {
+      "sender": "Service Desk",
+      "subject": "Verify Your Credentials",
+      "body_snippet": "Please reply with your current password to verify your account.",
+      "context": "A colleague asks to borrow your login because theirs is locked."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Share your credentials with your colleague temporarily.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Provide your password since they are IT.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Click the link and log in to be safe.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Never share your password and navigate to the service manually.",
+        "is_correct": true,
+        "explanation": "Legitimate IT staff will never ask for your password."
+      }
+    ]
+  },
+  {
+    "id": "vishing-/-fake-helpdesk-9",
+    "scenario_date": "2026-09-11",
+    "topic": "Connecting to Public Network",
+    "threat_type": "Vishing / Fake Helpdesk",
+    "difficulty": "Easy",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Home Router",
+      "subject": "Connecting to Public Network",
+      "body_snippet": "You are working in a crowded cafe and need to review confidential documents.",
+      "context": "Waiting at the airport for a flight."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave your laptop unlocked while you grab a coffee.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Always use the corporate VPN on public networks and position your screen privately.",
+        "is_correct": true,
+        "explanation": "VPNs encrypt your traffic, protecting it from interception on public networks."
+      },
+      {
+        "id": "C",
+        "text": "Work on sensitive documents where others can easily see your screen.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Connect directly to public Wi-Fi without a VPN.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      }
+    ]
+  },
+  {
+    "id": "vishing-/-fake-helpdesk-3",
+    "scenario_date": "2026-09-10",
+    "topic": "Connecting to Public Network",
+    "threat_type": "Vishing / Fake Helpdesk",
+    "difficulty": "Medium",
+    "points_reward": 200,
+    "briefing": {
+      "sender": "Home Router",
+      "subject": "Connecting to Public Network",
+      "body_snippet": "Please connect to 'Free_Airport_WiFi' to access the internet.",
+      "context": "Waiting at the airport for a flight."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave your laptop unlocked while you grab a coffee.",
+        "is_correct": false,
+        "explanation": "Incorrect. Following this action bypasses security protocols."
+      },
+      {
+        "id": "B",
+        "text": "Connect directly to public Wi-Fi without a VPN.",
+        "is_correct": false,
+        "explanation": "Incorrect. This could compromise your system or violate policy."
+      },
+      {
+        "id": "C",
+        "text": "Work on sensitive documents where others can easily see your screen.",
+        "is_correct": false,
+        "explanation": "Incorrect. This introduces unnecessary risk."
+      },
+      {
+        "id": "D",
+        "text": "Always use the corporate VPN on public networks and position your screen privately.",
+        "is_correct": true,
+        "explanation": "Screen privacy and VPN usage are critical when working in public spaces."
+      }
+    ]
+  }
+]

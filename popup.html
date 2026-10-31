@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GBSEC Stats</title>
+  <link rel="stylesheet" href="styles/shared.css">
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+  <div class="card profile-card">
+    <div class="profile-name" id="user-name">Anas M.</div>
+    <div class="profile-dept" id="user-dept">IT Operations - Sonatrach / Eni JV</div>
+    <div class="progress-container">
+      <div class="progress-bar" id="level-progress"></div>
+    </div>
+    <div class="profile-dept" id="user-level">Lvl 4: Network Sentry</div>
+    <div style="display: flex; justify-content: center; gap: 12px; margin-top: 8px;">
+      <span class="pill flame">🔥 <span id="user-streak">0</span></span>
+      <span class="pill gem">💎 <span id="user-xp">0</span> XP</span>
+    </div>
+  </div>
+
+  <button id="launch-drill-btn" class="launch-btn">🚀 Start Daily Drill</button>
+
+  <div class="card leaderboard" id="leaderboard-container">
+    <h3 style="margin-top:0; margin-bottom: 12px;">Top Sentries</h3>
+    <div id="leaderboard-list">
+      <!-- Leaderboard injected here -->
+    </div>
+  </div>
+
+  <div class="card footer">
+    <span style="font-size: 0.875rem;">Daily 09:00 AM Prompt</span>
+    <label class="switch">
+      <input type="checkbox" id="reminder-toggle" checked>
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="com.proofpoint.training_rlf.6aa529bf31e773b6a19e41a5.1_2" version="1.0"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" >
+			<general>
+				<title>
+					<langstring>Security Basics: Passwords and Authentication</langstring>
+				</title>
+				<catalogentry>
+					<catalog></catalog>
+					<entry><langstring xml:lang="en"></langstring></entry>
+				</catalogentry>
+				<description>
+					<langstring xml:lang="en"></langstring>
+				</description>
+				<keyword>
+					<langstring xml:lang="en"></langstring>
+				</keyword>
+			</general>
+			<lifecycle/>
+			<metametadata>
+				<metadatascheme>LOM-1.0</metadatascheme>
+			</metametadata>
+			<technical>
+				<format>text/html</format>
+				<location type="URI">https://www.proofpoint.com</location>
+			</technical>
+			<educational>
+				<typicallearningtime>
+					<datetime></datetime>
+				</typicallearningtime>
+			</educational>
+			<rights>
+				<cost>
+					<source>
+					<langstring xml:lang="x-none">LOM-WD6.1</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">no</langstring>
+					</value>
+				</cost>
+				<copyrightandotherrestrictions>
+					<source>
+					<langstring xml:lang="x-none">LOM-WD6.1</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">no</langstring>
+					</value>
+				</copyrightandotherrestrictions>
+				<description>
+					<langstring xml:lang="en"></langstring>
+				</description>
+			</rights>
+			<classification>
+				<purpose>
+					<source>
+					<langstring xml:lang="x-none">LOM-WD6.1</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">Educational Objective</langstring>
+					</value>
+				</purpose>
+				<description>
+					<langstring xml:lang="en"></langstring>
+				</description>
+				<keyword>
+					<langstring xml:lang="en"></langstring>
+				</keyword>
+			</classification>
+		</lom>
+	</metadata>
+	<organizations default="i6aa529bf31e773b6a19e41a5-ORG">
+		<organization identifier="i6aa529bf31e773b6a19e41a5-ORG" structure="heirarchical">
+			<title>Security Basics: Passwords and Authentication</title>
+			<item identifier="isb_pass_auth-ITEM" identifierref="isb_pass_auth-RES" isvisible="true">
+				<title>Security Basics: Passwords and Authentication</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="isb_pass_auth-RES" type="webcontent" href="courses/sb_pass_auth/index.html" adlcp:scormtype="sco">
+			<file href="courses/sb_pass_auth/index.html" />
+		</resource>
+	</resources>
+</manifest>

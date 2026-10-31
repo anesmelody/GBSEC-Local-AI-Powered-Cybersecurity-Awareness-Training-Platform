@@ -1,0 +1,131 @@
+{
+  "course": {
+    "manifestId": "com.proofpoint.training_rlf.6aa529bf31e773b6a19e41a5.1_2",
+    "title": "Security Basics: Passwords and Authentication",
+    "standard": "SCORM 1.2",
+    "provider": "Proofpoint Security Awareness Training",
+    "authoringTool": "Articulate Storyline 360 v3.95",
+    "author": "Nathaniel Kling",
+    "publishDate": "2025-03-13",
+    "duration": "About 2 minutes",
+    "slides": 4,
+    "resourcePath": "courses/sb_pass_auth/index.html",
+    "primaryLocale": "en-us"
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "Principles of Password Entropy",
+      "subtitle": "Password Fundamentals & Complexity",
+      "topics": [
+        "Password and PIN fundamentals",
+        "Strong, unique password creation",
+        "Password entropy and complexity",
+        "Cracking resistance through length and complexity",
+        "Readily available cracking software risks"
+      ],
+      "keyFacts": [
+        "Passwords and PINs are fundamental tools for keeping accounts and private information secure.",
+        "Using strong, unique passwords is critical in your personal and professional life.",
+        "Attackers can often guess simple, common passwords, or crack them with readily available software.",
+        "Increasing complexity and length can strengthen passwords, making them more difficult to crack.",
+        "Don't forget to keep passwords safe!"
+      ],
+      "transcriptSegment": "Passwords and PINs are fundamental tools for keeping accounts and private information secure. Using strong, unique passwords is critical in your personal and professional life. Attackers can often guess simple, common passwords, or crack them with readily available software. Increasing complexity and length can strengthen passwords, making them more difficult to crack. Don't forget to keep passwords safe!",
+      "checkpointPrompt": "Explain why a 20-character passphrase like 'correct-horse-battery-staple' is more secure than a short complex password like 'P@ss1!'. Consider entropy and cracking resistance in your answer.",
+      "checkpointCriteria": [
+        "Must mention password length/entropy as the primary strength factor",
+        "Must acknowledge that short complex passwords can be brute-forced",
+        "Must reference that passphrases are easier to remember yet harder to crack",
+        "Should mention dictionary attacks or brute-force attacks"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Multi-Factor Authentication & Social Engineering",
+      "subtitle": "Phishing, Credential Theft & MFA Tokens",
+      "topics": [
+        "Phishing email recognition",
+        "Credential theft through social engineering",
+        "Malicious email identification",
+        "Account impersonation risks",
+        "Password reuse dangers across multiple accounts",
+        "Multi-factor authentication (MFA) principles"
+      ],
+      "keyFacts": [
+        "Attackers can often send malicious emails designed to trick people into revealing their login credentials.",
+        "Compromised passwords may lead to stolen money or information.",
+        "Attackers could use your password to log into your account and impersonate you.",
+        "They might contact your friends, family, coworkers — even your organization's customers and vendors.",
+        "If you use the same password across multiple accounts, attackers only need to trick you once to gain access to all of those accounts."
+      ],
+      "transcriptSegment": "Attackers can often send malicious emails designed to trick people into revealing their login credentials. Compromised passwords may lead to stolen money or information. Attackers could use your password to log into your account and impersonate you. They might contact your friends, family, coworkers — even your organization's customers and vendors. And if you use the same password across multiple accounts, attackers only need to trick you once to gain access to all of those accounts.",
+      "checkpointPrompt": "You receive an email from 'IT-Support@groupernent-berkine.com' asking you to verify your credentials by clicking a link. Identify at least three red flags and describe what you should do.",
+      "checkpointCriteria": [
+        "Must identify the typosquatted domain (groupernent vs groupement)",
+        "Must mention urgency/pressure tactics as a red flag",
+        "Must recommend not clicking the link",
+        "Should suggest reporting to IT/SOC",
+        "Should mention verifying through official channels"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Authentication Hygiene & Credential Storage",
+      "subtitle": "Phishing Triage & Secure Habits",
+      "topics": [
+        "Good cybersecurity habits",
+        "Protecting organizational systems",
+        "Creating long, unique passwords and PINs",
+        "Caution with unexpected login prompts",
+        "Password manager usage",
+        "Credential storage best practices"
+      ],
+      "keyFacts": [
+        "Good cybersecurity habits can help you protect your accounts and your organization's systems.",
+        "Always create long, unique passwords and PINs.",
+        "Be cautious with any unexpected email that prompts you to log into a website, application, or system.",
+        "When it comes to passwords and PINs, make them strong, and keep them safe.",
+        "Don't let attackers make you their pawn in the cyber game."
+      ],
+      "transcriptSegment": "Luckily, good cybersecurity habits can help you protect your accounts and your organization's systems. Always create long, unique passwords and PINs. And be cautious with any unexpected email that prompts you to log into a website, application, or system. When it comes to passwords and PINs, make them strong, and keep them safe. Don't let attackers make you their pawn in the cyber game.",
+      "checkpointPrompt": "A colleague asks to borrow your corporate login credentials 'just for a minute' to access a shared resource. What should you do and why? Also describe how you would securely store your own passwords.",
+      "checkpointCriteria": [
+        "Must refuse to share credentials under any circumstances",
+        "Must mention the principle of individual accountability",
+        "Should recommend the colleague contact IT for proper access",
+        "Must mention using a password manager for credential storage",
+        "Should mention that shared credentials violate zero-trust principles"
+      ]
+    }
+  ],
+  "fullTranscript": "Passwords and PINs are fundamental tools for keeping accounts and private information secure. Using strong, unique passwords is critical in your personal and professional life. Attackers can often guess simple, common passwords, or crack them with readily available software. Increasing complexity and length can strengthen passwords, making them more difficult to crack. Don't forget to keep passwords safe! Attackers can often send malicious emails designed to trick people into revealing their login credentials. Compromised passwords may lead to stolen money or information. Attackers could use your password to log into your account and impersonate you. They might contact your friends, family, coworkers — even your organization's customers and vendors. And if you use the same password across multiple accounts, attackers only need to trick you once to gain access to all of those accounts. Luckily, good cybersecurity habits can help you protect your accounts and your organization's systems. Always create long, unique passwords and PINs. And be cautious with any unexpected email that prompts you to log into a website, application, or system. When it comes to passwords and PINs, make them strong, and keep them safe. Don't let attackers make you their pawn in the cyber game.",
+  "scormSlides": [
+    { "id": 1, "title": "Security Basics Title Screen", "type": "title" },
+    { "id": 2, "title": "Module Overview", "type": "overview" },
+    { "id": 3, "title": "Security Basics Video", "type": "video", "durationMs": 79859 },
+    { "id": 4, "title": "Conclusion", "type": "conclusion" }
+  ],
+  "phishingAnalysisGuidelines": {
+    "indicators": [
+      "Typosquatted or lookalike sender domains",
+      "Urgent or threatening language creating pressure",
+      "Suspicious hyperlinked buttons or URLs",
+      "Forged enterprise branding or logos",
+      "Requests for credentials or personal information",
+      "Mismatched reply-to addresses",
+      "Generic greetings instead of personalized addressing",
+      "Grammatical errors or unusual formatting",
+      "Unexpected attachments or download links"
+    ],
+    "verdictScale": ["LEGITIMATE", "SUSPICIOUS", "PHISHING"],
+    "threatLevels": ["Low", "Medium", "High", "Critical"],
+    "recommendedActions": [
+      "Report to GB SOC immediately",
+      "Do not click any links or download attachments",
+      "Forward the original email to the security team",
+      "Delete the email after reporting",
+      "Contact the alleged sender through verified channels"
+    ]
+  }
+}

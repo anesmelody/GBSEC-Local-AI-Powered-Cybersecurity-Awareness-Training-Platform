@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<script>
+			var selectedOption = sessionStorage.getItem("selected-locale-6aa529bf31e773b6a19e41a5");
+
+			var loadLocale = function (locale) {
+				if (false) {
+					if (false) {
+						window.location.href = './front.html?locale=' + locale;
+					} else {
+						window.location.href = './index.html?locale=' + locale;
+					}
+				} else {
+					if(true) {
+						window.location.href = locale + '/index_wrapper.html?locale=' + locale;
+					} else {
+						window.location.href = locale + '/index_lms.html';
+					}
+				}
+			};
+
+			if (selectedOption) {
+				loadLocale(selectedOption);
+			}
+		</script>
+		<title>SCORM Launcher</title>
+	</head>
+	<body>
+		<div id="language-select-container">
+		<div id="select-form-container">
+		<div id="header-text">Choose Your Language</div>
+		<div id="select-form">
+		<form class="form" id="locale-select-form">
+			<label for="language-select">Language</label>
+			<div id="form-row-1">
+				<select class="select" id="language-select">
+					<option value="ar-eg">Arabic (Egypt) العربيَّة</option>
+					<option value="bg-bg">Bulgarian (Bulgaria) Български</option>
+					<option value="my-mm">Burmese (Myanmar) မြန်မာဘာသာ</option>
+					<option value="zh-cn">Chinese-Simple (China) 简体中文</option>
+					<option value="zh-tw">Chinese-Traditional (Taiwan) 繁體中文</option>
+					<option value="hr-hr">Croatian (Croatia) hrvatski</option>
+					<option value="cs-cz">Czech (Czech Republic) čeština</option>
+					<option value="da-dk">Danish (Denmark) dansk</option>
+					<option value="nl-nl">Dutch (Netherlands) Nederlands</option>
+					<option value="en-au">English (Australia) English</option>
+					<option value="en-gb">English (United Kingdom) English</option>
+					<option value="en-us">English (United States) English</option>
+					<option value="fi-fi">Finnish (Finland) suomi</option>
+					<option value="fr-ca">French (Canada) français</option>
+					<option value="fr-fr">French (France) français</option>
+					<option value="de-de">German (Germany) Deutsch</option>
+					<option value="el-gr">Greek (Greece) Ελληνικά</option>
+					<option value="he-il">Hebrew (Israel) עִבְרִית</option>
+					<option value="hi-in">Hindi (India) हिन्दी</option>
+					<option value="hu-hu">Hungarian (Hungary) magyar</option>
+					<option value="is-is">Icelandic (Iceland) íslenska</option>
+					<option value="id-id">Indonesian (Indonesia) Bahasa Indonesia</option>
+					<option value="it-it">Italian (Italy) italiano</option>
+					<option value="ja-jp">Japanese (Japan) 日本語</option>
+					<option value="km-kh">Khmer (Cambodia) ខេមរភាសា</option>
+					<option value="ko-kr">Korean (Korea) 한국어</option>
+					<option value="lt-lt">Lithuanian (Lithuania) lietuvių kalba</option>
+					<option value="ms-my">Malay (Malaysia) Bahasa Melayu</option>
+					<option value="no-no">Norwegian (Norway) norsk</option>
+					<option value="pl-pl">Polish (Poland) polski</option>
+					<option value="pt-br">Portuguese (Brazil) português</option>
+					<option value="pt-pt">Portuguese (Portugal) português</option>
+					<option value="ro-ro">Romanian (Romania) română</option>
+					<option value="ru-ru">Russian (Russia) русский</option>
+					<option value="sr-sp">Serbian (Serbia) Srpski</option>
+					<option value="sk-sk">Slovak (Slovakia) slovenský</option>
+					<option value="es-es">Spanish (Spain) español</option>
+					<option value="es-mx">Spanish (Latin America) español</option>
+					<option value="sv-se">Swedish (Sweden) svenska</option>
+					<option value="th-th">Thai (Thailand) ไทย</option>
+					<option value="tr-tr">Turkish (Turkey) Türkçe</option>
+					<option value="uk-ua">Ukrainian (Ukraine) Українська</option>
+					<option value="vi-vn">Vietnamese (Vietnam) Tiếng Việt</option>
+			</select>
+			<button id="select-button" class="button" type="submit">Select</button>
+		</div>
+
+		</div>
+		<div>
+		</form>
+   <form id="continue-form">
+      <button id="continueButton" type="submit" disabled>Continue</button>
+    </form>
+	</div>
+	</div>
+	</div>
+    <script>
+			var select = document.getElementById("language-select");
+			var option;
+
+			for (var i = 0; i < select.options.length; i++) {
+				option = select.options[i];
+				if (option.value == selectedOption || option.value == "en-us") {
+					option.setAttribute("selected", true);
+				}
+			}
+
+			var selectForm = document.getElementById("locale-select-form");
+
+        selectForm.addEventListener("submit", function (event) {
+          var select = document.getElementById("language-select");
+          event.preventDefault();
+          var locale = select.value;
+		  if (window.opener) {
+			window.opener.sessionStorage.setItem("selected-locale-6aa529bf31e773b6a19e41a5", locale);
+		  };
+          sessionStorage.setItem("selected-locale-6aa529bf31e773b6a19e41a5", locale);
+          document.getElementById("continueButton").disabled = false;
+					document.getElementById("select-button").disabled = true;
+        });
+
+				selectForm.addEventListener("change", function (event) {
+          event.preventDefault();
+          document.getElementById("continueButton").disabled = true;
+					document.getElementById("select-button").disabled = false;
+        });
+
+			document
+        .getElementById("continue-form")
+        .addEventListener("submit", function (event) {
+
+          event.preventDefault();
+          var selectedOption = sessionStorage.getItem("selected-locale-6aa529bf31e773b6a19e41a5");
+					loadLocale(selectedOption);
+        });
+    </script>
+
+		<style>
+			body {
+				background-color: #eee;
+			}
+			#language-select-container {
+				max-width: 520px;
+				margin: 100px auto;
+				background-color: white;
+				box-shadow: 0 2px 5px rgb(0 0 0 / 11%), 0 3px 10px rgb(0 0 0 / 9%);
+			}
+			#logo {
+				background-color: black;
+				padding: 30px;
+			}
+			#logo img {
+				width: 300px;
+				height: 40px;
+				display: block;
+				margin: auto;
+			}
+			#select-form-container {
+				font-family: Arial, Helvetica, sans-serif;
+				padding: 30px;
+			}
+			#header-text {
+				font-size: large;
+			}
+			label {
+				display: block;
+				font-size: smaller;
+				margin-bottom: 5px;
+				color: gray;
+			}
+			#select-form {
+				padding: 20px 0;
+			}
+			select {
+				padding: 10px;
+				width: 100%;
+				background-color: white;
+			}
+			#form-row-1 {
+				display: flex;
+			}
+			#continue-form {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-end;
+			}
+			button {
+				height: 40px;
+				min-width: 70px;
+				background-color: white;
+				font-size: medium;
+				margin: 0 8px;
+				padding: 10px;
+				border-width: 1px;
+				border-color: black;
+				color: black;
+			}
+			button:disabled {
+				background-color: lightgray;
+				color: gray;
+				border-width: 0;
+			}
+
+			button:hover {
+				background-color: lightgray;
+			}
+		</style>
+	</body>
+</html>
